@@ -1,0 +1,93 @@
+/* Auth.css */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background Styling */
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Auth Box */
+.auth-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+  color: #fff;
+}
+
+/* Heading */
+.auth-box h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Input Fields */
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* Placeholder Color */
+.auth-box input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button */
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.auth-box button:hover {
+  background: linear-gradient(135deg, #ff8dc4, #8f86f8);
+}
+
+/* Links */
+.auth-box p {
+  margin-top: 10px;
+}
+
+.auth-box a {
+  color: #ffb3d9;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.auth-box a:hover {
+  color: #ffd3e9;
+}
